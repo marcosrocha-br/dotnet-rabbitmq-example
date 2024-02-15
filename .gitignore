@@ -10,8 +10,6 @@
 *.userosscache
 *.sln.docstates
 
-.DS_Store
-
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -363,4 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/MusicEvent.Web/ClientApp/.angular/cache/15.2.10
+
+.DS_Store
