@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{5B55F63F-143E-4D3E-86FF-92C4DC33ADA6}|https">
+  <MonoDevelop.Ide.ItemProperties.producer FirstBuild="True" PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dotnet-rabbitmq-example" expanded="True">
+            <Node name="producer" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
