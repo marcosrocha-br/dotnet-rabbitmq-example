@@ -4,14 +4,14 @@
     "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/producer.csproj": {}
   },
   "projects": {
-    "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/producer.csproj": {
+    "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/core/core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/producer.csproj",
-        "projectName": "producer",
-        "projectPath": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/producer.csproj",
+        "projectUniqueName": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/core/core.csproj",
+        "projectName": "core",
+        "projectPath": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/core/core.csproj",
         "packagesPath": "/Users/marcosrocha/.nuget/packages/",
-        "outputPath": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/obj/",
+        "outputPath": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marcosrocha/.nuget/NuGet/NuGet.Config"
@@ -37,10 +37,74 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/producer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/producer.csproj",
+        "projectName": "producer",
+        "projectPath": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/producer.csproj",
+        "packagesPath": "/Users/marcosrocha/.nuget/packages/",
+        "outputPath": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/producer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcosrocha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/core/core.csproj": {
+                "projectPath": "/Users/marcosrocha/Projects/dotnet-rabbitmq-example/core/core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
