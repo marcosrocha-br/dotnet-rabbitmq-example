@@ -16,7 +16,7 @@ namespace core.Entities
 
         public override string ToString()
         {
-            return $"Order Id {Id}, User {User.Name}, Criation: {InitialDate:dd/MM/yyyy}";
+            return $"Order Id {Id}, User {User.Name}, Criation: {InitialDate:dd/MM/yyyy hh:mm:ss}";
         }
     }
 }

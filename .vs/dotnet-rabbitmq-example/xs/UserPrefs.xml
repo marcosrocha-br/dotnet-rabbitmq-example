@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{5B55F63F-143E-4D3E-86FF-92C4DC33ADA6}|https">
+﻿<Properties StartupConfiguration="{95E36B83-881F-4CD5-9A13-FFE57D46169E}|Default">
   <MonoDevelop.Ide.ItemProperties.producer PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
@@ -11,6 +11,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.consumer PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
