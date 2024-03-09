@@ -1,22 +1,22 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.producer PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="producer/Controllers/OrderController.cs">
+  <MonoDevelop.Ide.ItemProperties.contabilidade PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="contabilidade/Controllers/ContabilidadeController.cs">
     <Files>
-      <File FileName="producer/Program.cs" Line="10" Column="27" />
-      <File FileName="producer/Controllers/HomeController.cs" Line="55" Column="1" />
-      <File FileName="core/Entities/Order.cs" Line="20" Column="10" />
-      <File FileName="core/core.csproj" Line="17" Column="15" />
-      <File FileName="consumer/Program.cs" Line="1" Column="1" />
-      <File FileName="consumer/Worker.cs" Line="16" Column="10" />
+      <File FileName="consumer/Worker.cs" Line="47" Column="10" />
+      <File FileName="producer/Controllers/OrderController.cs" Line="53" Column="14" />
+      <File FileName="contabilidade/Controllers/ContabilidadeController.cs" Line="18" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="dotnet-rabbitmq-example">
-            <Node name="producer" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="OrderController.cs" selected="True" />
-              </Node>
+          <Node name="dotnet-rabbitmq-example" expanded="True" selected="True">
+            <Node name="contabilidade">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="producer">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -24,17 +24,19 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.consumer PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/marcosrocha/Projects/dotnet-rabbitmq-example/contabilidade/Controllers/ContabilidadeController.cs" relfile="contabilidade/Controllers/ContabilidadeController.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
-        <StartupItem ItemId="{95E36B83-881F-4CD5-9A13-FFE57D46169E}" ItemName="consumer" ConfigurationId="Default" />
+        <StartupItem ItemId="{C973AC48-2153-4480-8BE3-A98BE5458F3C}" ItemName="contabilidade" ConfigurationId="https" />
         <StartupItem ItemId="{5B55F63F-143E-4D3E-86FF-92C4DC33ADA6}" ItemName="producer" ConfigurationId="https" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
